@@ -12,7 +12,7 @@
     <!-- LOCAL -->
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
 
     <!-- HOSTED -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
@@ -1313,8 +1313,8 @@
         color: #157051;
         font-size: 10pt;
         font-weight: 600;
-        padding: 5px 0; }
-       
+        padding: 5px 0;
+        border: 1px solid #157c59; }
     section:nth-of-type(5) #close {
         position: absolute;
         padding: 5px 15px;
@@ -1587,6 +1587,7 @@
 
     /*# sourceMappingURL=style.css.map */
     </style>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!-- HOSTED -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
@@ -1608,30 +1609,30 @@
 <!-- HOME -->
 
 
-<nav class="flex desk fixed text-center">
-      <ul class="navbar navbar-expand-sm bg-dark navbar-dark">
+<!--<nav class="flex desk fixed">-->
+<!--        <ul class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">-->
 
-     <a class="nav-link" href="#home" >Home</a>
-   </li>
+<!--      <a class="nav-link" href="#home" style="padding:20px">Home</a>-->
+<!--    </li>-->
 
-      <a class="nav-link" href="#about" >About</a>
-    </li>
+<!--      <a class="nav-link" href="#about" style="padding:20px">About</a>-->
+<!--    </li>-->
+<!--  -->
+<!--      <a class="nav-link" href="#portfolio" style="padding:20px">Portfolio</a>-->
+<!--    </li>-->
 
-     <a class="nav-link" href="#portfolio">Portfolio</a>
-  </li>
+<!--      <a class="nav-link" href="#blog" style="padding:20px">Blog</a>-->
+<!--    </li>-->
 
-   <a class="nav-link" href="#blog" >Blog</a>
-   </li>
+<!--      <a class="nav-link" href="#contact" style="padding:20px">Contact</a>-->
+<!--    </li>-->
 
-      <a class="nav-link" href="#contact" >Contact</a>
-   </li>
+<!--  </ul>-->
+<!--      </nav>-->
 
-  </ul>
-      </nav>
-
-  <!--<nav class="navbar navbar-expand-md navbar-dark py-1 px-0">
+<nav class="navbar navbar-expand-md navbar-dark py-1 px-0">
     <!--        TODO: Close hamburger when nav item selected $('#navbarNav').removeClass('show');-->
-<!--    <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -1654,7 +1655,7 @@
             </li>
         </ul>
     </div>
-</nav>-->
+</nav>
 
 <div class="modal-wrap flex">
     <div class="mask"></div>
@@ -1686,9 +1687,9 @@
             I'm a Frontend web developer.
         </div>
 
-        
+        <div> <a href="#about" class="button page-link">View my work <i class="mdi mdi-arrow-right"></i> </a></div>
 
-<div><a href="#about" class="button page-link">View my work <i class="mdi mdi-arrow-right"></i></a></div>
+
 
     </div>
 
@@ -1711,7 +1712,7 @@
                     </div>
                     <div class="waypoint animated fade-in" data-animation="fade-in">
                         <div class="label bold">Fast</div>
-                        <div>Fast load times and lag free interaction, my highest priority.</div>
+                        <div>Fastest load times and lag free interaction, my highest priority.</div>
                     </div>
                 </div>
 
@@ -1762,7 +1763,7 @@
                 <div>
                     I'm the Front-End Developer who have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
                     <br>
-                    <span class="page-link highlight" style="margin:15px">Let's make something special.</span>
+                    <span class="page-link highlight">Let's make something special.</span>
                 </div>
             </div>
 
@@ -1854,7 +1855,7 @@
         <div class="mix js" data-my-order="1" style="display: inline-block;" data-bound="">
 
             <div class="card">
-                <img src="images/razorcat3.png" style="width:100%; height:100%">
+                <img src="images/razorcat3.png" alt="Avatar" style="width:100%; height:100%">
 
 
             </div>
@@ -1862,14 +1863,14 @@
                 <h2><b> Razorcat </b></h2>
                 <p class="text-muted">Javascript/Laravel framework</p>
             </div>
-         <div><a href="https://www.razorcat.in/" class="button" target="_blank" id="roambi">LEARN MORE</a></div>
+            <div class="button" id="roambi">LEARN MORE</div>
 
         </div>
 
         <div class="mix rails" data-my-order="1" style="display: inline-block;" data-bound="">
 
             <div class="card">
-                <img src="images/tour.png" style="width:100%; height:100%">
+                <img src="images/tour.png" alt="Avatar" style="width:100%; height:100%">
 
 
             </div>
@@ -1877,29 +1878,29 @@
                 <h2><b> Tourdeguide </b></h2>
                 <p class="text-muted">Pure Javascript</p>
             </div>
-     <div><a href="https://tourdeguide.com/ " class="button" target="_blank" id="roambi">LEARN MORE</a></div>
+            <div class="button" id="roambi">LEARN MORE</div>
 
         </div>
 
         <div class="mix rails" data-my-order="1" style="display: inline-block;" data-bound="">
 
             <div class="card">
-                <img src="https://tourdeguide.com/" style="width:100%; height:100%">
+                <img src="images/svaksha.png" alt="Avatar" style="width:100%; height:100%">
 
 
             </div>
             <div class="text">
-                <h2><b> Svaksha</b></h2>
+                <h2><b> Svaksha </b></h2>
                 <p class="text-muted">Javascript/Bootstrap 4</p>
             </div>
-           <div><a href="https://svaksha.in/# " class="button" target="_blank" id="roambi">LEARN MORE</a></div>
+            <div class="button" id="roambi">LEARN MORE</div>
 
         </div>
 
         <div class="mix rails" data-my-order="1" style="display: inline-block;" data-bound="">
 
             <div class="card">
-                <img src="images/svaksha.png"  style="width:100%; height:100%">
+                <img src="images/shaman.png" alt="Avatar" style="width:100%; height:100%">
 
 
             </div>
@@ -1907,14 +1908,14 @@
                 <h2><b> Shaman Mercedes</b></h2>
                 <p class="text-muted">Bootstrap framework</p>
             </div>
-           <div><a href="https://shaman-mercedes.com/mumbai/" class="button" target="_blank" id="roambi">LEARN MORE</a></div>
+            <div class="button" id="roambi">LEARN MORE</div>
 
         </div>
 
         <div class="mix rails" data-my-order="1" style="display: inline-block;" data-bound="">
 
             <div class="card">
-                <img src="images/spread.png" style="width:100%; height:100%">
+                <img src="images/spread.png" alt="Avatar" style="width:100%; height:100%">
 
 
             </div>
@@ -1922,14 +1923,14 @@
                 <h2><b> Spreading Word</b></h2>
                 <p class="text-muted">Javascript</p>
             </div>
-            <div><a href="http://bestdayevereducation.com/reviews " class="button" target="_blank" id="roambi">LEARN MORE</a></div>
+            <div class="button" id="roambi">LEARN MORE</div>
 
         </div>
 
         <div class="mix rails" data-my-order="1" style="display: inline-block;" data-bound="">
 
             <div class="card">
-                <img src="images/thalia.png" style="width:100%; height:100%">
+                <img src="images/thalia.png" alt="Avatar" style="width:100%; height:100%">
 
 
             </div>
@@ -1937,8 +1938,8 @@
                 <h2><b> Thalia Technologies</b></h2>
                 <p class="text-muted">Bootstrap framework</p>
             </div>
-           
- <div><a href="https://www.thaliatechnologies.com/" class="button" target="_blank" id="roambi">LEARN MORE</a></div>
+            <div class="button" id="roambi">LEARN MORE</div>
+
         </div>
 
 
