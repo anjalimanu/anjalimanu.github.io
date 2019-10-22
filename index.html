@@ -1,14 +1,13 @@
-<html class=" -webkit-"><head>
+<html class="">
+<head>
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-    <script src="scripts/modal.js"></script>
     <!-- HOSTED -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800' rel='stylesheet' type='text/css'>
     <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
     <link rel="stylesheet" href="css/animate.css">
 
-<link rel="stylesheet" href="//cdn.materialdesignicons.com/4.5.95/css/materialdesignicons.min.css">
-
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/4.5.95/css/materialdesignicons.min.css">
 
     <!-- LOCAL -->
     <link rel="stylesheet" href="style/style.css">
@@ -25,13 +24,13 @@
     <script src="scripts/pt.min.js"></script>
     <script src="scripts/index.js"></script>
     <script src="scripts/modal.js"></script>
+    <script src="ambient-background/scripts/navbar.js"></script>
 
     <!-- HOSTED -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-
 
 
     <style media="" data-href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800">/* cyrillic-ext */
@@ -1591,6 +1590,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!-- HOSTED -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
@@ -1601,10 +1601,11 @@
     <script src="scripts/index.js"></script>
     <script src="scripts/modal.js"></script>
 
+    <script src="jquery-3.4.1.min.js"></script>
+
 </head>
 <body class="">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top py-1 px-0">
-    <!--        TODO: Close hamburger when nav item selected $('#navbarNav').removeClass('show');-->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top py-1 px-0">
     <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -1656,8 +1657,8 @@
 
 <!--  </ul>-->
 <!--      </nav>-->
-<body>
 
+<body>
 
 <div class="modal-wrap flex">
     <div class="mask"></div>
@@ -1680,7 +1681,7 @@
 </div>
 
 <section id="home" class="flex height-fix" style="text-center">
-    <div id="pt" class="canvas"><canvas id="canvas" width="1920" height="617" style="width: 1536px; height: 494px;"></canvas></div>
+    <div id="pt" class="canvas"><canvas id="canvas"></canvas></div>
     <div class="flex">
 
         <div class="text">
@@ -1765,7 +1766,7 @@
                 <div>
                     I'm the Front-End Developer who have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
                     <br>
-                    <span class="page-link highlight">Let's make something special.</span>
+                    <span class="page-link highlight" style="margin-top:10px">Let's make something special.</span>
                 </div>
             </div>
 
@@ -1854,10 +1855,10 @@
 
 
     <div id="gallery" class="container flex row wrap animated">
-        <div class="mix js" data-my-order="1" style="display: inline-block;" data-bound="">
+        <div class="mix js" data-my-order="1" style="display: inline-block;">
 
             <div class="card">
-                <img src="images/razorcat3.png" alt="Avatar" style="width:100%; height:100%">
+                <img src="images/razorcat3.png" style="width:100%; height:100%">
 
 
             </div>
@@ -1869,7 +1870,7 @@
 
         </div>
 
-        <div class="mix rails" data-my-order="1" style="display: inline-block;" data-bound="">
+        <div class="mix rails" data-my-order="1" style="display: inline-block;">
 
             <div class="card">
                 <img src="images/tour.png" alt="Avatar" style="width:100%; height:100%">
@@ -1884,7 +1885,7 @@
 
         </div>
 
-        <div class="mix rails" data-my-order="1" style="display: inline-block;" data-bound="">
+        <div class="mix rails" data-my-order="1" style="display: inline-block;">
 
             <div class="card">
                 <img src="images/svaksha.png" alt="Avatar" style="width:100%; height:100%">
@@ -1899,7 +1900,7 @@
 
         </div>
 
-        <div class="mix rails" data-my-order="1" style="display: inline-block;" data-bound="">
+        <div class="mix rails" data-my-order="1" style="display: inline-block;">
 
             <div class="card">
                 <img src="images/shaman.png" alt="Avatar" style="width:100%; height:100%">
@@ -1914,7 +1915,7 @@
 
         </div>
 
-        <div class="mix rails" data-my-order="1" style="display: inline-block;" data-bound="">
+        <div class="mix rails" data-my-order="1" style="display: inline-block;">
 
             <div class="card">
                 <img src="images/spread.png" alt="Avatar" style="width:100%; height:100%">
@@ -1929,7 +1930,7 @@
 
         </div>
 
-        <div class="mix rails" data-my-order="1" style="display: inline-block;" data-bound="">
+        <div class="mix rails" data-my-order="1" style="display: inline-block;">
 
             <div class="card">
                 <img src="images/thalia.png" alt="Avatar" style="width:100%; height:100%">
@@ -2040,7 +2041,7 @@
 
         <div class="header waypoint animated slide-in-left" data-animation="slide-in-left">CONTACT</div>
         <div class="header-bar waypoint animated slide-in-right" data-animation="slide-in-right" data-delay=".25s" style="animation-delay: 0.25s;"></div>
-        <div class="highlight waypoint animated slide-in-right" data-animation="slide-in-right" data-delay=".5s" style="animation-delay: 0.5s;">want to work together? Call on +353899795154 </div>
+        <div class="highlight waypoint animated slide-in-right" data-animation="slide-in-right" data-delay=".5s" style="animation-delay: 0.5s;">Want to work together? Call on +353899795154 </div>
         <form class="waypoint animated pop-in" data-animation="pop-in" data-delay=".5s" id="contact-form" style="animation-delay: 0.5s;">
             <input placeholder="Name" type="text" name="name" required="">
             <input placeholder="Enter email" type="email" name="email" required="">
@@ -2063,8 +2064,8 @@
 
 
     <footer style="margin-top:25px">
-        <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
-
+ 
+ <a class="mdi mdi-chevron-double-up page-link" href="#home">Home</a>
         <div class="icon-wrap flex row">
             <a href="https://www.linkedin.com/in/anjali-parmar-717509143/">
                 <div class="flex icon" id="icon-2">
@@ -2106,10 +2107,6 @@
 
     </div>
 
-
-
-
-
-
     <script src="scripts/canvas.js"></script>
-</body></html>
+</body>
+</html>
